@@ -1,0 +1,11 @@
+<html>
+<head></head>
+<body>
+
+{% for i in range(your_list[0]|length) %}
+      <p>{{ your_list[0][i]*100 }} for {{ labels[i] }} </p>
+{% endfor %}
+
+<p>"Given image has label :" {{answer.split('_')[-1]}} </P>
+</body>
+</html>

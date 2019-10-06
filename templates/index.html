@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Category Detection Demo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+<!--	<h3>Enter the image for category detection</h3>
+	<div class="jumbotron text-center" style="width : 40%;">
+		<form action="/uploader" method = "POST" enctype = "multipart/form-data">
+				<input type = "file" name = "image" style="padding-left: 130px;"><br>
+				<div class="text-center">
+		      		<button type="submit" class="btn btn-primary">Predict</button>
+		      	</div>
+		</form>
+	</div>
+-->
+  <div class = "container" style="margin-left: 0px; padding-left: 0px;">
+    <h1 style="text-align: center; width:100vw; height:8vh; background-color:#fcbe03">Upload your Excel file with image links</h1>
+  </div>
+  <div class = "container">
+    <div class="jumbotron text-center">
+  		<form action="/uploader" method = "POST" enctype = "multipart/form-data">
+  				<input type = "file" name = "xl" style="padding-left: 40%" width="15"><br>
+  				<div class="text-center">
+  		      		<button type="submit" style="height:50px; width:90px" class="btn btn-primary">Predict</button>
+  		      	</div>
+  		</form>
+  	</div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+[program:var-cat-2]
+user=root
+directory=/home/ubuntu/var-cat-2/
+command=/home/ubuntu/var-cat-2/gunicorn --workers 3 --bind unix:var-cat-2.sock cfehome.wsgi:app
+
+autostart=true
+autorestart=true
+stdout_logfile=/home/ubuntu/var-cat-2/gunicorn.log
+stderr_logfile=/home/ubuntu/var-cat-2/gunicorn.err.log
