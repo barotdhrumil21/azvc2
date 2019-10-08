@@ -95,7 +95,7 @@ def process_xl(xl_path, fname, model, label_dict):
         img = np.reshape(img, (1,64,64,1))
         x = img/255
         preds = model.predict(x)
-        answer.append(label_dict[np.argmax(preds)].split('_')[-1])
+        answer.append(label_dict[np.argmax(preds)])#.split('_')[-1])
         #confs.append(np.amax(preds))
         os.remove("./temp_images/"+i)
     df.insert(2, 'CATEGORY', answer, True)
