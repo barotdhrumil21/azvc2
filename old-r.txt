@@ -1,0 +1,16 @@
+--find-links wheelhouse
+keras==2.0.0
+tensorflow==1.14.0
+flask
+werkzeug
+scipy
+opencv-python-headless
+sklearn
+matplotlib
+manage
+test
+pandas
+pillow
+wget
+xlrd
+openpyxl
