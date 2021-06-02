@@ -94,7 +94,7 @@ test==2.3.4.5
 Twisted==17.9.0
 ufw==0.36
 unattended-upgrades==0.1
-urllib3==1.22
+urllib3==1.26.5
 Werkzeug==0.16.0
 wget==3.2
 wrapt==1.11.2
