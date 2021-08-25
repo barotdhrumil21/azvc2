@@ -1,6 +1,6 @@
 --find-links wheelhouse
 keras==2.0.0
-tensorflow==1.14.0
+tensorflow==2.5.1
 flask
 werkzeug
 scipy
