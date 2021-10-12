@@ -55,7 +55,7 @@ monotonic==1.5
 netifaces==0.10.4
 numpy==1.17.2
 oauthlib==2.0.6
-opencv-python-headless==4.1.1.26
+opencv-python-headless==4.2.0.32
 openpyxl==3.0.0
 PAM==0.4.2
 pandas==0.25.1
